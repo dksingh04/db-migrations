@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "db-managements"
+version = "0.1.0"
+description = ""
+authors = ["Deepak Singh <deepaksingh04@gmail.com>"]
+readme = "README.md"
+packages = [{include = "db_managements"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.1"
+alembic = "^1.13.0"
+pymysql = "^1.1.0"
+mysql-connector-python = "^8.2.0"
+sqlalchemy = "^2.0.23"
+python-dotenv = "^1.0.0"
+cryptography = "^41.0.7"
+yoyo-migrations = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
